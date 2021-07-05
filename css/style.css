@@ -1,12 +1,13 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     font-size: 16px;
     background-image: url(../images/bg-demo.jpg);
+    color: #333;
 }
 a, button {
     transition: all .2s linear;
-    color: #4240bf;
+    color: #662483;
 }
 a:focus {
     text-decoration: none;
@@ -15,7 +16,25 @@ a:hover {
     color: #9BCA38;
     text-decoration: none;
 }
-
+.navbar-header-auto {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.menu-search-block {
+    display: flex;
+    align-items: center;
+}
+.search-header button {
+    background-color: transparent;
+    border: none;
+}
 @media (max-width: 1199px) {
 
 }
