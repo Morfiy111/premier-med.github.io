@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+    background-image: url(../images/bg-demo.jpg);
+}
+a, button {
+    transition: all .2s linear;
+    color: #4240bf;
+}
+a:focus {
+    text-decoration: none;
+}
+a:hover {
+    color: #9BCA38;
+    text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+    
+}
+@media (max-width: 767px) {
+   
+}
+@media(max-width: 500px) {
+    
+}
