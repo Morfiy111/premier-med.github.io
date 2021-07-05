@@ -4199,11 +4199,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
+    display: flex;
     height: auto !important;
+    align-items: center;
     padding-bottom: 0;
     overflow: visible !important;
-  }
+}
   .navbar-collapse.in {
     overflow-y: visible;
   }
