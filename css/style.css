@@ -2,7 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     font-size: 16px;
-    background-image: url(../images/bg-demo.jpg);
     color: #333;
 }
 a, button {
@@ -39,6 +38,38 @@ a:hover {
 }
 .main__header {
     margin: 20px 0;
+}
+.banner-item-text {
+    position: absolute;
+    width: 478px;
+    top: 105px;
+    left: 29%;
+    color: #666666
+}
+.owl-carousel-item {
+    position: relative;
+}
+.banner-item-text p {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.banner-item-text a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.main-site-btn {
+    background: #662483;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 72px;
+}
+.banner-item-text .main-site-btn {
+    display: inline-block;
+}
+.banner-item-text h2 {
+    font-size: 64px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
