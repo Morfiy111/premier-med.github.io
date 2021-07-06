@@ -123,7 +123,8 @@ a:hover {
 .advantages-block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 40px;
 }
 .advantages-item {
     text-align: center;
@@ -132,6 +133,43 @@ a:hover {
 }
 .advantages-item-img {
     margin-bottom: 20px;
+}
+.advantages-item-text {
+    width: 180px;
+    margin: auto;
+}
+.footer-block {
+    background: rgba(224, 224, 224, 0.3);
+}
+.footer-logo-title{
+    color: #662483;
+    font-size: 15px;
+    margin: 15px 0 30px 0;
+}
+.footer-socia-link {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer-address-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-address-block {
+    padding-top: 15px;
+}
+.footer-address-item {
+    width: 279px;
+}
+.footer-address-flex {
+    margin-top: 40px;
+}
+.menu-address-block .navbar-nav > li > a:first-child {
+    padding-left: 0;
 }
 @media (min-width: 768px) {
     .navbar-nav {
