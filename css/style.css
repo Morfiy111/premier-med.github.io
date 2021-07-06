@@ -99,7 +99,6 @@ a:hover {
 .image-text-block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
 }
 .image-flex-block {
     width: 49%;
@@ -154,7 +153,12 @@ a:hover {
     .search-header button {
         padding: 10px;
     }
-    
+    .image-text-block {
+        flex-wrap: wrap;
+    }
+    .image-flex-text, .image-flex-block {
+        width: 100%;
+    }
 }
 @media(max-width: 500px) {
     .header-logo img {
