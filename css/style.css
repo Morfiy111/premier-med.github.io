@@ -101,8 +101,11 @@ a:hover {
     justify-content: space-between;
 }
 .image-flex-block {
-    width: 49%;
+    width: 42%;
     text-align: center;
+}
+.image-flex-block img {
+    width: 100%;
 }
 .image-flex-text {
     width: 49%;
@@ -111,8 +114,11 @@ a:hover {
     background-image: url("../images/back.png");
     background-size: 100%;
     padding: 40px;
+}
+.background-gray-block {
+    background: rgba(220, 220, 228, 0.5);
+    padding: 40px;
     margin-bottom: 40px;
-    position: relative;
 }
 @media (min-width: 768px) {
     .navbar-nav {
