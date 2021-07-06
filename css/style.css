@@ -187,6 +187,15 @@ a:hover {
     .nav:before, .nav:after, .navbar:before, .navbar:after {
         content: none;
     }
+    .footer-logo {
+        margin-right: 20px;
+    }
+    .footer-address-item {
+        width: auto;
+    }
+    .menu-address-block .navbar-nav {
+        margin: 0;
+    }
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
