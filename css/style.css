@@ -196,6 +196,25 @@ a:hover {
     .menu-address-block .navbar-nav {
         margin: 0;
     }
+    .banner-item-text p {
+        font-size: 18px;
+    }
+    .banner-item-text h2 {
+        font-size: 30px;
+    }
+    .banner-item-text {
+        top: 60px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        height: 400px;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .banner-item-text {
+        left: 10%;
+    }
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
@@ -224,6 +243,12 @@ a:hover {
     }
     .image-flex-text, .image-flex-block {
         width: 100%;
+    }
+    .banner-item-text {
+        width: 80%;
+    }
+    .background-gray-block .image-flex-block {
+        margin-bottom: 20px;
     }
 }
 @media(max-width: 500px) {
