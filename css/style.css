@@ -96,6 +96,25 @@ a:hover {
 .our-product-list {
     margin: 40px 0;
 }
+.image-text-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.image-flex-block {
+    width: 49%;
+    text-align: center;
+}
+.image-flex-text {
+    width: 49%;
+}
+.background-image-block {
+    background-image: url("../images/back.png");
+    background-size: 100%;
+    padding: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         margin-right: 40px;
@@ -140,5 +159,8 @@ a:hover {
 @media(max-width: 500px) {
     .header-logo img {
         width: 200px;
+    }
+    .image-flex-block img {
+        width: 100%;
     }
 }
