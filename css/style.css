@@ -253,6 +253,32 @@ a:hover {
     .advantages-item-text {
         width: auto;
     }
+    .menu-address-block .navbar-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-flex-block {
+        flex-wrap: wrap;
+    } 
+    .menu-address-block .menu-address-block {
+        width: 100%;
+    }
+    .search-header {
+        margin: 0;
+    }
+    .footer-address-flex {
+        flex-wrap: wrap;
+    }
+    .footer-address-item {
+        margin-bottom: 20px;
+    }
+    .footer-address-flex {
+        margin-top: 20px;
+    }
+    .background-gray-block, .background-image-block {
+        padding: 20px;
+    }
+    
 }
 @media(max-width: 500px) {
     .header-logo img {
@@ -263,5 +289,11 @@ a:hover {
     }
     .advantages-item {
         width: 48%;
+    }
+    .main-site-btn {
+        padding: 16px 43px;
+    }
+    .banner-item-text p {
+        font-size: 16px;
     }
 }
