@@ -250,6 +250,9 @@ a:hover {
     .background-gray-block .image-flex-block {
         margin-bottom: 20px;
     }
+    .advantages-item-text {
+        width: auto;
+    }
 }
 @media(max-width: 500px) {
     .header-logo img {
@@ -257,5 +260,8 @@ a:hover {
     }
     .image-flex-block img {
         width: 100%;
+    }
+    .advantages-item {
+        width: 48%;
     }
 }
