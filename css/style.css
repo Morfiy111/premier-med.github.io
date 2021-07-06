@@ -120,6 +120,19 @@ a:hover {
     padding: 40px;
     margin-bottom: 40px;
 }
+.advantages-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.advantages-item {
+    text-align: center;
+    width: 32%;
+    margin-bottom: 30px;
+}
+.advantages-item-img {
+    margin-bottom: 20px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         margin-right: 40px;
