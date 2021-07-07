@@ -43,7 +43,7 @@ a:hover {
     position: absolute;
     width: 478px;
     top: 105px;
-    left: 29%;
+    left: 20%;
     color: #666666
 }
 .owl-carousel-item {
@@ -170,6 +170,24 @@ a:hover {
 }
 .menu-address-block .navbar-nav > li > a:first-child {
     padding-left: 0;
+}
+.nav:before, .nav:after, .navbar:before, .navbar:after {
+    content: none;
+}
+.search-input-block {
+    position: relative;
+    bottom: 15px;
+}
+.search-input-block input {
+    transition: all .2s linear;
+    position: absolute;
+    width: 0px;
+    border: none;
+}
+.search-input-block.active input {
+    width: 100%;
+    border: 1px solid #666;
+    padding: 5px 10px
 }
 @media (min-width: 768px) {
     .navbar-nav {
