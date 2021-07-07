@@ -64,6 +64,11 @@ a:hover {
     color: #fff;
     font-size: 16px;
     padding: 16px 72px;
+    border: 2px solid #662483;
+}
+.main-site-btn:hover {
+    background-color: transparent;
+    color: #662483;
 }
 .banner-item-text .main-site-btn {
     display: inline-block;
@@ -193,6 +198,7 @@ a:hover {
     display: flex;
     align-items: center;
 }
+
 @media (min-width: 768px) {
     .navbar-nav {
         margin-right: 40px;
@@ -285,7 +291,7 @@ a:hover {
     .menu-address-block .menu-address-block {
         width: 100%;
     }
-    .search-header {
+    .menu-address-block .search-header {
         margin: 0;
     }
     .footer-address-flex {
