@@ -27,3 +27,9 @@ $('.continue').click(function () {
 });
 
 
+document.querySelector('.search-header button').onclick = function () {
+    document.querySelector('.search-input-block').classList.toggle('active');
+}
+document.querySelector('.menu-address-block .search-header button').onclick = function () {
+    document.querySelector('.search-input-block').classList.toggle('stick');
+}
