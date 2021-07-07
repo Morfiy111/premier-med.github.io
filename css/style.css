@@ -32,6 +32,10 @@ a:hover {
 }
 .nav > li > a {
     padding: 10px;
+    border-bottom: 1px solid transparent;
+}
+.nav > li > a:hover {
+    border-bottom: 1px solid #662483;
 }
 .header-logo img {
     width: 233px;
@@ -200,6 +204,30 @@ a:hover {
 }
 .main-banner {
     margin-bottom: 40px;
+}
+
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #662483;
+    transition: all .3s linear;
 }
 @media (min-width: 768px) {
     .navbar-nav {
