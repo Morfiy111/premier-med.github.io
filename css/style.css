@@ -274,6 +274,13 @@ a:hover {
 }
 @media (max-width: 1199px) {
     
+    .owl-carousel .owl-item img {
+        display: block;
+        height: 400px;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 991px) {
@@ -300,13 +307,6 @@ a:hover {
     }
     .banner-item-text {
         top: 60px;
-    }
-    .owl-carousel .owl-item img {
-        display: block;
-        height: 400px;
-        text-align: center;
-        max-width: 100%;
-        object-fit: cover;
     }
     .banner-item-text {
         left: 10%;
