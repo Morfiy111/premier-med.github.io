@@ -189,6 +189,10 @@ a:hover {
     border: 1px solid #666;
     padding: 5px 10px
 }
+.menu-address-block .navbar-collapse {
+    display: flex;
+    align-items: center;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         margin-right: 40px;
@@ -296,7 +300,12 @@ a:hover {
     .background-gray-block, .background-image-block {
         padding: 20px;
     }
-    
+    .menu-address-block .navbar-collapse {
+        display: block;
+    }
+    .footer-address-item {
+        width: 47%;
+    }
 }
 @media(max-width: 500px) {
     .header-logo img {
@@ -313,5 +322,8 @@ a:hover {
     }
     .banner-item-text p {
         font-size: 16px;
+    }
+    .footer-address-item {
+        width: 100%;
     }
 }
