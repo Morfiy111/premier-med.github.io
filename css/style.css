@@ -96,7 +96,7 @@ a:hover {
     margin: auto;
 }
 .our-product-block img {
-    width: 100%;
+    width: 80%;
 }
 .our-product-list {
     margin: 40px 0;
@@ -198,7 +198,9 @@ a:hover {
     display: flex;
     align-items: center;
 }
-
+.main-banner {
+    margin-bottom: 40px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         margin-right: 40px;
