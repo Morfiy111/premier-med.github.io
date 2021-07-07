@@ -254,6 +254,34 @@ a:hover {
 .animate-arrow-block {
     display: flex;
 }
+.banner-content img {
+    width: 100%;
+}
+.banner-content h1 {
+    color: #662483;
+}
+.banner-content .banner-item-text {
+    top: 33%;
+    left: 10%;;
+}
+.text-content-block {
+    margin: 40px 0;
+}
+.banner-content {
+    position: relative;
+}
+.background-gray-block .background-image-block {
+    background-image: url(../images/statement.png);
+    background-size: 70%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+.background-gray-block-nopadding {
+    padding: 0;
+}
+.background-gray-block-nopadding .image-text-block {
+    margin: 50px 0;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
