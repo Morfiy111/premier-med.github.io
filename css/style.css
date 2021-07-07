@@ -339,6 +339,28 @@ a:hover {
     .banner-item-text {
         left: 10%;
     }
+    .background-gray-block-nopadding .image-text-block {
+        margin: 0px 0;
+    }
+    .background-gray-block .background-image-block {
+        background-size: 100%;
+    }
+    .overlay-equipment {
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: .5s ease-in-out;
+    } 
+    .background-gray-block, .background-image-block {
+        position: relative;
+    }
+    .subtitle-page, .image-text-block {
+        position: relative;
+        z-index: 1;
+    }
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
