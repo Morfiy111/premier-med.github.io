@@ -374,6 +374,18 @@ a:hover {
 .main__header .container {
     overflow-x: inherit;
 }
+.contact-forms input, .contact-forms textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #C4C4C4;
+    padding: 5px 15px;
+}
+.contact-forms textarea {
+    resize: none;
+}
+.contact-forms .button-center {
+    text-align: right;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
@@ -403,6 +415,12 @@ a:hover {
     }
     .operations-image img {
         width: 100%;
+    }
+    .banner-content img {
+        height: 300px;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -561,5 +579,8 @@ a:hover {
     }
     .operations-item {
         width: 100%;
+    }
+    .banner-content h1 {
+        font-size: 24px;
     }
 }
