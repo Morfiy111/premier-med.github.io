@@ -387,6 +387,16 @@ a:hover {
 .contact-forms .button-center {
     text-align: right;
 }
+.map-block iframe {
+    border: none;
+}
+.map-block {
+    overflow: hidden;
+    border: none;   
+  }
+.map-block > iframe{  
+    border: none;
+  }
 @keyframes arrow-7 {
     0%{
         opacity: 0;
