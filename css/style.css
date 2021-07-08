@@ -256,6 +256,7 @@ a:hover {
 }
 .animate-arrow-block {
     display: flex;
+    padding-bottom: 10px;
 }
 .banner-content img {
     width: 100%;
