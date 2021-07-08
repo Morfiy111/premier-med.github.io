@@ -340,6 +340,15 @@ a:hover {
 .container .auto-image {
     width: auto;
 }
+.news-title-block a {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.news-date-block {
+    color: #662483;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
