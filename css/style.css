@@ -349,6 +349,19 @@ a:hover {
     font-weight: bold;
     margin-bottom: 40px;
 }
+.news-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-left {
+    transform: rotate(90deg);
+}
+.navigation-line-news {
+    font-size: 36px;
+    margin: 20px;
+    color: #662483;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
