@@ -362,6 +362,18 @@ a:hover {
     margin: 20px;
     color: #662483;
 }
+.container .contact-block-page .image-flex-block {
+    text-align: left;
+}
+.contact-row-icon {
+    display: flex;
+}
+.contact-icon {
+    margin-right: 30px;
+}
+.main__header .container {
+    overflow-x: inherit;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
