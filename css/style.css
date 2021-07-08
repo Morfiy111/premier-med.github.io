@@ -317,6 +317,9 @@ a:hover {
     color: #662483;
     margin-bottom: 20px;
 }
+.footer-address-item:first-child {
+    margin-right: 20px;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
