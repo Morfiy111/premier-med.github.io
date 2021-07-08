@@ -282,6 +282,41 @@ a:hover {
 .background-gray-block-nopadding .image-text-block {
     margin: 50px 0;
 }
+.sertificate-block {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.sertificate-item {
+    width: 25%;
+}
+.sertificate-item img {
+    width: 100%;
+}
+.background-gray-block-nopadding .background-training {
+    background-image: url("../images/training.png");
+    background-position-x: 0;
+}
+.image-text-block-reverce {
+    flex-direction: row-reverse;
+}
+.margin-class-item {
+    margin-bottom: 40px;
+}
+.about-facts {
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-fact-item {
+    width: 178px;
+}
+.about-fact-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #662483;
+    margin-bottom: 20px;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
@@ -389,6 +424,7 @@ a:hover {
     }
     .image-flex-text, .image-flex-block {
         width: 100%;
+        margin-bottom: 20px;
     }
     .banner-item-text {
         width: 80%;
@@ -429,6 +465,10 @@ a:hover {
     }
     .footer-address-item {
         width: 47%;
+    }
+    .about-facts {
+        margin: 60px 0;
+        flex-wrap: wrap;
     }
 }
 @media(max-width: 500px) {
