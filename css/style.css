@@ -440,6 +440,13 @@ a:hover {
         max-width: 100%;
         object-fit: cover;
     }
+    .owl-product-sistem .owl-item img {
+        display: block;
+        height: auto;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 991px) {
@@ -572,6 +579,9 @@ a:hover {
     .operations-item {
         width: 47%;
     }
+    .banner-content h1 {
+        font-size: 24px;
+    }
 }
 @media(max-width: 500px) {
     .header-logo img {
@@ -597,8 +607,5 @@ a:hover {
     }
     .operations-item {
         width: 100%;
-    }
-    .banner-content h1 {
-        font-size: 24px;
     }
 }
