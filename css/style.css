@@ -418,6 +418,7 @@ a:hover {
 .index-item img {
     width: 100%;
     margin-bottom: 20px;
+    border: 2px solid #E5E5E5;
 }
 .syringe-page-item {
     justify-content: space-between;
