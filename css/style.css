@@ -421,6 +421,15 @@ a:hover {
 .syringe-page-item {
     justify-content: space-between;
 }
+button.close {
+    font-size: 26px;
+    z-index: 1;
+    position: relative;
+    right: 15px;
+    top: 7px;
+    color: #666;
+    opacity: 1;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
