@@ -341,7 +341,7 @@ a:hover {
     margin-bottom: 20px;
 }
 .container .auto-image {
-    width: auto;
+    width: 100%;
 }
 .news-title-block a {
     font-weight: bold;
