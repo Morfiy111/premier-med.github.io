@@ -71,3 +71,26 @@ $(document).ready(function () {
     });
 
 });
+var itemsCount = 4;
+
+if (window.matchMedia("(max-width: 767px)").matches) {
+    itemsCount = 2;
+}
+var owl = $('.owl-product-sistem');
+owl.owlCarousel({
+    items: itemsCount,
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    smartSpeed: 700,
+    autoplayHoverPause: true
+});
+$('.play').on('click', function () {
+    owl.trigger('autoplay.play.owl', [4000])
+})
+$('.stop').on('click', function () {
+    owl.trigger('autoplay.stop.owl')
+})

@@ -396,7 +396,14 @@ a:hover {
   }
 .map-block > iframe{  
     border: none;
-  }
+}
+.product-table-page td {
+    border: 1px solid #666;
+    padding: 7px;
+}
+.product-table-page {
+    width: 100%;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
