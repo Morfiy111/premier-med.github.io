@@ -433,6 +433,9 @@ button.close {
 .index-title {
     text-align: center;
 } 
+.footer-logo-img img {
+    width: 233px;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
