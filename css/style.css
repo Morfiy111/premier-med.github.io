@@ -334,6 +334,7 @@ a:hover {
     text-align: center;
     width: 21%;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 .operations-image {
     margin-bottom: 20px;
@@ -407,13 +408,18 @@ a:hover {
 .index-product-flex {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .index-item {
-    width: 20%;
+    width: 26%;
+    margin-bottom: 20px;
 }
 .index-item img {
     width: 100%;
     margin-bottom: 20px;
+}
+.syringe-page-item {
+    justify-content: space-between;
 }
 @keyframes arrow-7 {
     0%{
