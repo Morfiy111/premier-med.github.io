@@ -441,6 +441,9 @@ button.close {
 .operations-image img {
     width: 100%;
 }
+.modal-body .owl-feedback-form {
+    text-align: left;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
