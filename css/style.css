@@ -444,6 +444,9 @@ button.close {
 .modal-body .owl-feedback-form {
     text-align: left;
 }
+.dropdown-menu > li > a {
+    white-space: inherit;
+}
 @keyframes arrow-7 {
     0%{
         opacity: 0;
